@@ -650,6 +650,11 @@ html {
     cursor: pointer;
 }
 
+.proyecto a h3 {
+    color: white;
+}
+
+
 .portfolio .galeria .proyecto img {
     width: 100%;
     display: block;
