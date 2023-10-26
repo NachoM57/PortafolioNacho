@@ -13,16 +13,19 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--Efectos AOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+
 </head>
 
 <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
         <header>
-            <div class="logo">
+            <div class="logo" data-aos="fade-right" data-aos-duration="2000">
                 <a href="">Nacho</a>
             </div>
-            <nav id="nav">
+            <nav id="nav" data-aos="fade-left" data-aos-duration="2000">
                 <ul>
                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
@@ -44,17 +47,20 @@
             <div class="contenedor-img">
                 <img src="img/perfil.png" alt="">
             </div>
-            <h1>Nacho Maiorino</h1>
-            <h2>Desarrollador Web <span>Front end</span></h2>
+            <div class="palabrasPrincipal" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
+                <h1>Nacho Maiorino</h1>
+                <h2>Desarrollador Web <span>Front end</span></h2>
+            </div>
             <div class="redes">
-                <a href="https://www.facebook.com/nacho.maiorino" target="_blank"><i
+                <a href="https://www.facebook.com/nacho.maiorino" target="_blank" rel="noopener noreferrer"><i
                         class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/nachomaiorino/?next=%2F" target="_blank"><i
+                <a href="https://www.instagram.com/nachomaiorino/?next=%2F" target="_blank" rel="noopener noreferrer"><i
                         class="fa-brands fa-instagram"></i></a>
                 <a href="https://github.com/NachoM57" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/ignacio-maiorino-5b1167266/" target="_blank"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
-                <a href="mailto:ignaciomaiorino50@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/ignacio-maiorino-5b1167266/" target="_blank"
+                    rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:ignaciomaiorino50@gmail.com" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-regular fa-envelope"></i></a>
             </div>
         </div>
     </section>
@@ -62,7 +68,7 @@
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion col-lg-8">
-            <h2>Sobre Mí</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="1000">Sobre Mí</h2>
             <p class="text-center">Soy un Desarrollador Web Full Stack Junior con una especialización en FrontEnd. Me he
                 capacitado con
                 Argentina Programa, y de forma autodidacta mediante cursos en Udemy y plataformas como FreeCodeCamp.
@@ -76,7 +82,7 @@
             <div class="fila d-flex justify-content-center">
                 <!-- intereses -->
                 <div class="col col-lg-12">
-                    <h3 class="text-center">Intereses</h3>
+                    <h3 class="text-center" data-aos="zoom-in" data-aos-duration="1000">Intereses</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
                             <i class="fa-solid fa-headphones"></i>
@@ -112,11 +118,11 @@
     <!-- SECCION Habilidades -->
     <section class="skills" id="skills">
         <div class="contenido-seccion">
-            <h2>Habilidades</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="1000">Habilidades</h2>
             <div class="fila">
                 <!-- Habilidades técnicas -->
                 <div class="col">
-                    <h3>Habilidades técnicas</h3>
+                    <h3 data-aos="fade-right" data-aos-duration="1000">Habilidades técnicas</h3>
                     <div class="skill">
                         <span>HTML & CSS</span>
                         <div class="barra-skill">
@@ -168,7 +174,7 @@
                 </div>
                 <!-- Habilidades profesionales -->
                 <div class="col">
-                    <h3>Habilidades profesionales</h3>
+                    <h3 data-aos="fade-left" data-aos-duration="1000">Habilidades profesionales</h3>
                     <div class="skill">
                         <span>Adaptabilidad</span>
                         <div class="barra-skill">
@@ -225,10 +231,10 @@
     <!-- SECCION CURRICULUM -->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
-            <h2>Curriculum</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="1000">Curriculum</h2>
             <div class="fila">
                 <div class="col izquierda">
-                    <h3>Educación</h3>
+                    <h3 data-aos="fade-right" data-aos-duration="1000">Educación</h3>
                     <div class="item izq">
                         <h4>Primario y Secundario</h4>
                         <span class="casa">Colegio Nuestra Señora Del Huerto</span>
@@ -271,7 +277,7 @@
 
 
                 <div class="col derecha">
-                    <h3>Experiencia de trabajo</h3>
+                    <h3 data-aos="fade-left" data-aos-duration="1000">Experiencia de trabajo</h3>
                     <div class="item der">
                         <h4>Repositor de Mercaderia</h4>
                         <span class="casa">Supermercado El Delfin.</span>
@@ -309,10 +315,11 @@
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="1000">PORTFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <a href="https://frontend-cafe-bba77.web.app/" target="_blank"><img src="img/cafe.webp" alt="Cafeteria">
+                    <a href="https://frontend-cafe-bba77.web.app/" target="_blank"><img src="img/cafe.webp"
+                            alt="Cafeteria">
                         <div class="overlay">
                             <h3>Cafeteria</h3>
                         </div>
@@ -320,42 +327,42 @@
                 </div>
                 <div class="proyecto">
                     <a href="https://frontend-argentina-progr-6523c.web.app/index" target="_blank">
-                    <img src="img/portafolio1.jpeg" alt="Portafolio personal 1">
-                    <div class="overlay">
-                        <h3>Portafolio Personal Full Stack</h3>
-                    </div>
-                </a>
+                        <img src="img/portafolio1.jpeg" alt="Portafolio personal 1">
+                        <div class="overlay">
+                            <h3>Portafolio Personal Full Stack</h3>
+                        </div>
+                    </a>
                 </div>
                 <div class="proyecto">
                     <a href="" target="_blank">
-                    <img src="img/portafolio2.jpeg" alt="Portafolio personal 1">
-                    <div class="overlay">
-                        <h3>Portafolio Personal Front End</h3>
-                    </div>
+                        <img src="img/portafolio2.jpeg" alt="Portafolio personal 1">
+                        <div class="overlay">
+                            <h3>Portafolio Personal Front End</h3>
+                        </div>
                     </a>
                 </div>
                 <div class="proyecto">
                     <a href="https://codeweb-776b0.web.app/Inicio" target="_blank">
-                    <img src="img/codeweb.jpeg" alt="Code Web">
-                    <div class="overlay">
-                        <h3>Code Web</h3>
-                    </div>
+                        <img src="img/codeweb.jpeg" alt="Code Web">
+                        <div class="overlay">
+                            <h3>Code Web</h3>
+                        </div>
                     </a>
                 </div>
                 <div class="proyecto">
                     <a href="https://asistirbellville.com.ar/home" target="_blank">
-                    <img src="img/asistir.webp" alt="Asistir">
-                    <div class="overlay">
-                        <h3>Asistir</h3>
-                    </div>
+                        <img src="img/asistir.webp" alt="Asistir">
+                        <div class="overlay">
+                            <h3>Asistir</h3>
+                        </div>
                     </a>
                 </div>
                 <div class="proyecto">
                     <a href="" target="_blank">
-                    <img src="img/dimecoSalud.webp" alt="Dimeco Salud">
-                    <div class="overlay">
-                        <h3>Dimeco Salud</h3>
-                    </div>
+                        <img src="img/dimecoSalud.webp" alt="Dimeco Salud">
+                        <div class="overlay">
+                            <h3>Dimeco Salud</h3>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -365,7 +372,7 @@
     <!-- footer -->
     <footer>
         <div id="contacto">
-            <h2>CONTACTO</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="1000">CONTACTO</h2>
             <div class="contenido-seccion col-lg-6">
                 <p>Muchas gracias por visitar mi portafolio. Espero que hayas podido conocerme mejor y evalúes si
                     podemos trabajar juntos. ¡Espero tu mensaje!</p>
@@ -373,14 +380,14 @@
                     <i class="fa-solid fa-arrow-up"></i>
                 </a>
                 <div class="redes">
-                    <a href="https://www.facebook.com/nacho.maiorino" target="_blank"><i
+                    <a href="https://www.facebook.com/nacho.maiorino" target="_blank" rel="noopener noreferrer"><i
                             class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/nachomaiorino/?next=%2F" target="_blank"><i
-                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/nachomaiorino/?next=%2F" target="_blank"
+                        rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://github.com/NachoM57" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ignacio-maiorino-5b1167266/" target="_blank"><i
-                            class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="mailto:ignaciomaiorino50@gmail.com" target="_blank"><i
+                    <a href="https://www.linkedin.com/in/ignacio-maiorino-5b1167266/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:ignaciomaiorino50@gmail.com" target="_blank" rel="noopener noreferrer"><i
                             class="fa-regular fa-envelope"></i></a>
                 </div>
                 <div class="propietario">
@@ -393,6 +400,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <!--Efectos AOS-->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 
