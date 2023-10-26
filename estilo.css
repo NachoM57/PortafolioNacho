@@ -68,7 +68,7 @@ html {
 /* SECCION I N I C I O */
 .inicio {
     background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
-        url(img/fondoPrincipal.webp);
+        url(https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2FfondoPrincipal.webp?alt=media&token=3b04a24f-54ff-4c64-a8b1-73a9eb48d95a&_gl=1*1shyfoh*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzQxNC4yNy4wLjA.);
     background-size: cover;
     height: 100vh;
     color: #fff;
