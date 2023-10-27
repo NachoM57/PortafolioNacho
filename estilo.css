@@ -14,12 +14,15 @@ html {
 
 /* MENU */
 .contenedor-header {
-    background: #1e2326;
-    position: fixed;
     width: 100%;
+    background: transparent;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
+}
+
+.contenedor-header header {
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -27,27 +30,19 @@ html {
     padding: 15px 20px;
 }
 
-@media (max-width: 768px) {
-    .contenedor-header {
-      width: 85%;
-    }
-  }
-
-
-
-.contenedor-header  .logo a {
+.contenedor-header header .logo a {
     font-family: 'Righteous';
     font-size: 36px;
     color: #3fc3f3;
     text-decoration: none;
 }
 
-.contenedor-header ul {
+.contenedor-header header ul {
     display: flex;
     list-style: none;
 }
 
-.contenedor-header  nav ul li a {
+.contenedor-header header nav ul li a {
     text-align: none;
     color: #fff;
     margin: 0 15px;
@@ -56,9 +51,10 @@ html {
     text-decoration: none;
 }
 
-.contenedor-header  nav ul li a:hover {
+.contenedor-header header nav ul li a:hover {
     color: #3fc3f3;
 }
+
 
 .nav-responsive {
     background-color: #3fc3f3;

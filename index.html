@@ -14,17 +14,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!--Efectos AOS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+
 
 </head>
 
 <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
-            <div class="logo" data-aos="fade-right" data-aos-duration="2000">
+        <header>
+            <div class="logo">
                 <a href="">Nacho</a>
             </div>
-            <nav id="nav" data-aos="fade-left" data-aos-duration="2000">
+            <nav id="nav">
                 <ul>
                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
@@ -37,15 +38,17 @@
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
+        </header>
     </div>
 
     <!-- SECCION INICIO -->
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2FPerfil.png?alt=media&token=a86c472b-6689-4a1a-a046-f672676b0389&_gl=1*1ewz9xv*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODQxNDY2My42LjEuMTY5ODQxNDkwNC40OC4wLjA." alt="">
+                <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2FPerfil.png?alt=media&token=a86c472b-6689-4a1a-a046-f672676b0389&_gl=1*1ewz9xv*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODQxNDY2My42LjEuMTY5ODQxNDkwNC40OC4wLjA."
+                    alt="">
             </div>
-            <div class="palabrasPrincipal" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
+            <div class="palabrasPrincipal">
                 <h1>Nacho Maiorino</h1>
                 <h2>Desarrollador Web <span>Front end</span></h2>
             </div>
@@ -66,7 +69,7 @@
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion col-lg-8">
-            <h2 data-aos="zoom-in" data-aos-duration="1000">Sobre Mí</h2>
+            <h2>Sobre Mí</h2>
             <p class="text-center">Soy un Desarrollador Web Full Stack Junior con una especialización en FrontEnd. Me he
                 capacitado con
                 Argentina Programa, y de forma autodidacta mediante cursos en Udemy y plataformas como FreeCodeCamp.
@@ -80,7 +83,7 @@
             <div class="fila d-flex justify-content-center">
                 <!-- intereses -->
                 <div class="col col-lg-12">
-                    <h3 class="text-center" data-aos="zoom-in" data-aos-duration="1000">Intereses</h3>
+                    <h3 class="text-center">Intereses</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
                             <i class="fa-solid fa-headphones"></i>
@@ -116,11 +119,11 @@
     <!-- SECCION Habilidades -->
     <section class="skills" id="skills">
         <div class="contenido-seccion">
-            <h2 data-aos="zoom-in" data-aos-duration="1000">Habilidades</h2>
+            <h2>Habilidades</h2>
             <div class="fila">
                 <!-- Habilidades técnicas -->
                 <div class="col">
-                    <h3 data-aos="fade-right" data-aos-duration="1000">Habilidades técnicas</h3>
+                    <h3>Habilidades técnicas</h3>
                     <div class="skill">
                         <span>HTML & CSS</span>
                         <div class="barra-skill">
@@ -172,7 +175,7 @@
                 </div>
                 <!-- Habilidades profesionales -->
                 <div class="col">
-                    <h3 data-aos="fade-left" data-aos-duration="1000">Habilidades profesionales</h3>
+                    <h3>Habilidades profesionales</h3>
                     <div class="skill">
                         <span>Adaptabilidad</span>
                         <div class="barra-skill">
@@ -229,10 +232,10 @@
     <!-- SECCION CURRICULUM -->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
-            <h2 data-aos="zoom-in" data-aos-duration="1000">Curriculum</h2>
+            <h2>Curriculum</h2>
             <div class="fila">
                 <div class="col izquierda">
-                    <h3 data-aos="fade-right" data-aos-duration="1000">Educación</h3>
+                    <h3>Educación</h3>
                     <div class="item izq">
                         <h4>Primario y Secundario</h4>
                         <span class="casa">Colegio Nuestra Señora Del Huerto</span>
@@ -275,7 +278,7 @@
 
 
                 <div class="col derecha">
-                    <h3 data-aos="fade-left" data-aos-duration="1000">Experiencia de trabajo</h3>
+                    <h3>Experiencia de trabajo</h3>
                     <div class="item der">
                         <h4>Repositor de Mercaderia</h4>
                         <span class="casa">Supermercado El Delfin.</span>
@@ -313,10 +316,11 @@
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
-            <h2 data-aos="zoom-in" data-aos-duration="1000">PORTFOLIO</h2>
+            <h2>PORTFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <a href="https://frontend-cafe-bba77.web.app/" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fcafe.webp?alt=media&token=2a31431b-84f7-4d39-8d30-ff317bcd2dfc&_gl=1*lm1u3r*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzQ3OS42MC4wLjA."
+                    <a href="https://frontend-cafe-bba77.web.app/" target="_blank"><img
+                            src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fcafe.webp?alt=media&token=2a31431b-84f7-4d39-8d30-ff317bcd2dfc&_gl=1*lm1u3r*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzQ3OS42MC4wLjA."
                             alt="Cafeteria">
                         <div class="overlay">
                             <h3>Cafeteria</h3>
@@ -325,7 +329,8 @@
                 </div>
                 <div class="proyecto">
                     <a href="https://frontend-argentina-progr-6523c.web.app/index" target="_blank">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fportafolio1.jpeg?alt=media&token=bec07195-0a6f-4e51-a1c7-916815b7456e&_gl=1*1w3gl05*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzUyMy4xNi4wLjA." alt="Portafolio personal 1">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fportafolio1.jpeg?alt=media&token=bec07195-0a6f-4e51-a1c7-916815b7456e&_gl=1*1w3gl05*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzUyMy4xNi4wLjA."
+                            alt="Portafolio personal 1">
                         <div class="overlay">
                             <h3>Portafolio Personal Full Stack</h3>
                         </div>
@@ -333,7 +338,8 @@
                 </div>
                 <div class="proyecto">
                     <a href="" target="_blank">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fportafolio2.jpeg?alt=media&token=8b58abd1-19ca-4afe-82af-5459cf4e63ce&_gl=1*r21cfr*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzU0MS42MC4wLjA." alt="Portafolio personal 1">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fportafolio2.jpeg?alt=media&token=8b58abd1-19ca-4afe-82af-5459cf4e63ce&_gl=1*r21cfr*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzU0MS42MC4wLjA."
+                            alt="Portafolio personal 1">
                         <div class="overlay">
                             <h3>Portafolio Personal Front End</h3>
                         </div>
@@ -341,7 +347,8 @@
                 </div>
                 <div class="proyecto">
                     <a href="https://codeweb-776b0.web.app/Inicio" target="_blank">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fcodeweb.jpeg?alt=media&token=ed41b8ce-c577-4e9b-b861-ddefb117d7c2&_gl=1*hl3ctj*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzU2NC4zNy4wLjA." alt="Code Web">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fcodeweb.jpeg?alt=media&token=ed41b8ce-c577-4e9b-b861-ddefb117d7c2&_gl=1*hl3ctj*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzU2NC4zNy4wLjA."
+                            alt="Code Web">
                         <div class="overlay">
                             <h3>Code Web</h3>
                         </div>
@@ -349,7 +356,8 @@
                 </div>
                 <div class="proyecto">
                     <a href="https://asistirbellville.com.ar/home" target="_blank">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fasistir.webp?alt=media&token=55bcd344-c75a-4d87-930c-67fa48f0b4b5&_gl=1*enqbni*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzU4MC4yMS4wLjA." alt="Asistir">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2Fasistir.webp?alt=media&token=55bcd344-c75a-4d87-930c-67fa48f0b4b5&_gl=1*enqbni*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzU4MC4yMS4wLjA."
+                            alt="Asistir">
                         <div class="overlay">
                             <h3>Asistir</h3>
                         </div>
@@ -357,7 +365,8 @@
                 </div>
                 <div class="proyecto">
                     <a href="" target="_blank">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2FdimecoSalud.webp?alt=media&token=05b06e98-ef7e-4334-9d81-e5aed3a0d17b&_gl=1*1mcwlcr*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzU5NS42LjAuMA.." alt="Dimeco Salud">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/mi-portafolio-db660.appspot.com/o/imagenes%20portafolio%2FdimecoSalud.webp?alt=media&token=05b06e98-ef7e-4334-9d81-e5aed3a0d17b&_gl=1*1mcwlcr*_ga*MTQwODMyMDIzMC4xNjk4MDY5NzY4*_ga_CW55HF8NVT*MTY5ODM2MjExOS41LjEuMTY5ODM2MzU5NS42LjAuMA.."
+                            alt="Dimeco Salud">
                         <div class="overlay">
                             <h3>Dimeco Salud</h3>
                         </div>
@@ -370,7 +379,7 @@
     <!-- footer -->
     <footer>
         <div id="contacto">
-            <h2 data-aos="zoom-in" data-aos-duration="1000">CONTACTO</h2>
+            <h2>CONTACTO</h2>
             <div class="contenido-seccion col-lg-6">
                 <p>Muchas gracias por visitar mi portafolio. Espero que hayas podido conocerme mejor y evalúes si
                     podemos trabajar juntos. ¡Espero tu mensaje!</p>
@@ -398,11 +407,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    <!--Efectos AOS-->
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
     <script src="script.js"></script>
 </body>
 
