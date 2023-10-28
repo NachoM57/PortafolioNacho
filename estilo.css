@@ -23,6 +23,7 @@ html {
 }
 
 .contenedor-header header {
+    background-color: #1a1a1ad5;
     margin: auto;
     display: flex;
     justify-content: space-between;
