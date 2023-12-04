@@ -744,6 +744,16 @@ footer .arriba {
     margin-bottom: 0;
 }
 
+
+.propietario a {
+    text-decoration: none;
+    color: #6cc7f5;
+  }
+  
+  .propietario a:hover {
+    color: #3bbeff;
+  }
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px) {
     nav {
