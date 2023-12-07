@@ -166,54 +166,6 @@ html {
     margin-bottom: 25px;
 }
 
-.sobremi .fila .col ul {
-    list-style: none;
-}
-
-.sobremi .fila .col ul li {
-    margin: 12px 0;
-}
-
-.sobremi .fila .col ul li strong {
-    display: inline-block;
-    color: #3fc3f3;
-    width: 130px;
-}
-
-.sobremi .fila .col ul li span {
-    background-color: #3fc3f3;
-    padding: 3px;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.sobremi .fila .col .contenedor-intereses {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.sobremi .fila .col .contenedor-intereses .interes {
-    width: 140px;
-    height: 140px;
-    background-color: #252A2E;
-    border-radius: 10px;
-    margin: 0 15px 15px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
-}
-
-.sobremi .fila .col .contenedor-intereses .interes:hover {
-    background-color: #3fc3f3;
-}
-
-.sobremi .fila .col .contenedor-intereses .interes i {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
 
 .sobremi button {
     cursor: pointer;
